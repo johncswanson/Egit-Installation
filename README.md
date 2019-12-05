@@ -13,6 +13,6 @@
 1.6 Click the **Next** Button. ![Install Remediation Page](docs/source/images/Windows-Egit-Installation-Screenshots/1.6-InstallRemediationPage.png)
 1.7 Click the **Next** Button. ![Install Details](docs/source/images/Windows-Egit-Installation-Screenshots/1.7-InstallDetails.png)
 1.8  Click the radio button to accept the terms of the license agreements, then click **Finish**. ![Accept Licenses](docs/source/images/Windows-Egit-Installation-Screenshots/1.8-AcceptLicenses.png)
-1.9  A window will pop up during the install. Make sure the check box next to **Eclicpse Foundation\, Inc; Java Software...** is checked. Then click **OK**.![Trust Certificates](docs/source/images/Windows-Egit-Installation-Screenshots/1.9-TrustCertificates.png)
+1.9  A window will pop up during the install. Make sure the check box next to **Eclicpse Foundation\, Inc; Java Software...** is checked. Then click **OK**.<br/> ![Trust Certificates](docs/source/images/Windows-Egit-Installation-Screenshots/1.9-TrustCertificates.png)
 1.10  Once the plug-in is finished installing IBM Explorer for z/OS will need to be restarted before it can be used. A pop-up window should appear asking you to restart. Click **Yes**.![Restart Explorer](docs/source/images/Windows-Egit-Installation-Screenshots/1.10-Restart.png)
 
