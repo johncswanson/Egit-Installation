@@ -34,7 +34,7 @@
 
 **2.2**  Click on **Window** -> **Perspective** -> **Open Perspective** -> **Other...**. ![Open Perspective List](docs/source/images/Windows-Egit-Installation-Screenshots/2.2-OpenPerspectiveList.png)
 
-**2.3**  Select **Git** and click **OK**. ![Selectn Git](docs/source/images/Windows-Egit-Installation-Screenshots/2.3-SelectGit.png)
+**2.3**  Select **Git** and click **OK**. <br/>![Selectn Git](docs/source/images/Windows-Egit-Installation-Screenshots/2.3-SelectGit.png)
 
 **2.4**  Select **Create new local Git repository** ![Select Create New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
 
