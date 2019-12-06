@@ -1,8 +1,9 @@
-# Egit-Intallation for IBM Explorer for z/OS 
+# Egit-Intallation for IBM Explorer for z/OS <!-- omit in toc -->
 
-### Sections: 
-1. [Installing the eGit Plug-in](#1-installing-the-egit-plug-in)
-2. 
+### Sections: <!-- omit in toc -->
+- [1. Installing the eGit Plug-in](#1-installing-the-egit-plug-in)
+- [2. Creating a Git Repo with eGit](#2-creating-a-git-repo-with-egit)
+- [3. Creating a Repo from an Existing Project](#3-creating-a-repo-from-an-existing-project)
 
 ## 1. Installing the eGit Plug-in
 
@@ -26,3 +27,20 @@
 
 **1.10**  Once the plug-in is finished installing IBM Explorer for z/OS will need to be restarted before it can be used. A pop-up window should appear asking you to restart. Click **Yes**.![Restart Explorer](docs/source/images/Windows-Egit-Installation-Screenshots/1.10-Restart.png)
 
+
+## 2. Creating a Git Repo with eGit
+
+**2.1**  Reopen IBM Explorer for z/OS if it did not repoen automatically. 
+
+**2.2**  Click on **Window** -> **Perspective** -> **Open Perspective** -> **Other...**. ![Open Perspective List](docs/source/images/Windows-Egit-Installation-Screenshots/2.2-OpenPerspectiveList.png)
+
+**2.3**  Select **Git** and click **OK**. ![Selectn Git](docs/source/images/Windows-Egit-Installation-Screenshots/2.3-SelectGit.png)
+
+**2.4**  Select **Create new local Git repository** ![Select Create New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
+
+**2.5**  Select the Directory you wish to create a git repository for. Then click **Create**. ![Select Dir](docs/source/images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
+
+**2.6** See that the repository now shows up in the **Git Repositories** view. ![Git Repo View ](docs/source/images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
+
+
+## 3. Creating a Repo from an Existing Project
