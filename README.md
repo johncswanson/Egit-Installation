@@ -34,7 +34,7 @@
 
 **2.2**  Click on **Window** -> **Perspective** -> **Open Perspective** -> **Other...**. ![Open Perspective List](docs/source/images/Windows-Egit-Installation-Screenshots/2.2-OpenPerspectiveList.png)
 
-**2.3**  Select **Git** and click **OK**. <br/>![Selectn Git](docs/source/images/Windows-Egit-Installation-Screenshots/2.3-SelectGit.png)
+**2.3**  Select **Git** and click **OK**. <br/> ![Selectn Git](docs/source/images/Windows-Egit-Installation-Screenshots/2.3-SelectGit.png)
 
 **2.4**  Select **Create new local Git repository** ![Select Create New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
 
@@ -44,3 +44,13 @@
 
 
 ## 3. Creating a Repo from an Existing Project
+
+**3.1**  Open a Project in the **Project Explorer**. ![Open Project](docs/source/images/Windows-Egit-Installation-Screenshots/3.1-OpenProject.png)
+
+**3.2**  Right click on the Project. Then click **Team** -> **Share Project...** ![Share Project](docs/source/images/Windows-Egit-Installation-Screenshots/3.2-ShareProject.png)
+
+**3.3**   Select **Git**, then click **Next**. ![Select Git](docs/source/images/Windows-Egit-Installation-Screenshots/3.3-SelectGit.png)
+
+**3.4**  Click the **Create** Button. ![Click Create](docs/source/images/Windows-Egit-Installation-Screenshots/3.4-ClickCreate.png)
+
+**3.5**  Choose the directory for your repository, then click **Finish**. ![Directory Location & Finish](docs/source/images/Windows-Egit-Installation-Screenshots/3.5-DirLocation&Finish.png)
