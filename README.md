@@ -4,6 +4,7 @@
 - [1. Installing the eGit Plug-in](#1-installing-the-egit-plug-in)
 - [2. Creating a Git Repo with eGit](#2-creating-a-git-repo-with-egit)
 - [3. Creating a Repo from an Existing Project](#3-creating-a-repo-from-an-existing-project)
+- [4. Working with Git in IBM Explorer for z/OS](#4-working-with-git-in-ibm-explorer-for-zos)
 
 ## 1. Installing the eGit Plug-in
 
@@ -54,3 +55,12 @@
 **3.4**  Click the **Create** Button. ![Click Create](docs/source/images/Windows-Egit-Installation-Screenshots/3.4-ClickCreate.png)
 
 **3.5**  Choose the directory for your repository, then click **Finish**. ![Directory Location & Finish](docs/source/images/Windows-Egit-Installation-Screenshots/3.5-DirLocation&Finish.png)
+
+**3.6**  Click **Finish**. ![Click Finish](docs/source/images/Windows-Egit-Installation-Screenshots/3.6-Finish.png)
+
+**3.7**  The repository is now created. If you follow the sets in sections 2.2 & 2.3 to open the Git Perspective, you can see the newly created repo. ![New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/3.7-GitPerspective.png)
+
+
+## 4. Working with Git in IBM Explorer for z/OS
+
+**4.1**  
