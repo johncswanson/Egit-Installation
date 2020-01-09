@@ -4,7 +4,7 @@
 - [1. Installing the eGit Plug-in](#1-installing-the-egit-plug-in)
 - [2. Creating a Git Repo with eGit](#2-creating-a-git-repo-with-egit)
 - [3. Creating a Repo from an Existing Project](#3-creating-a-repo-from-an-existing-project)
-- [4. Working with Git in IBM Explorer for z/OS](#4-working-with-git-in-ibm-explorer-for-zos)
+- [4. Clone a Git Repository](#4-clone-a-git-repository)
 
 ## 1. Installing the eGit Plug-in
 
@@ -61,6 +61,14 @@
 **3.7**  The repository is now created. If you follow the sets in sections 2.2 & 2.3 to open the Git Perspective, you can see the newly created repo. ![New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/3.7-GitPerspective.png)
 
 
-## 4. Working with Git in IBM Explorer for z/OS
+## 4. Clone a Git Repository
 
-**4.1**  
+**4.1** Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
+
+**4.2** Enter the information of the repository you wish to clone. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. If not port is specified the default port will be used and if no User ID and Password are provided it will assume there is no authetication needed. Then click **Next >**.  ![EnterRepoInfo](docs/source/images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
+
+**4.3** Select the Branches you wish to clone then click **Next >**. ![Branch Selection](docs/source/images/Windows-Egit-Installation-Screenshots/4.3-BranchSelection.png)
+
+**4.4** Enter the location on you machine to which you would like to save the cloned repository. Then click **Finish**. ![Branch Selection](docs/source/images/Windows-Egit-Installation-Screenshots/4.4-LocalDestination.png)
+
+**4.5** Now your cloned repository should show up in the Git Perspective of z/OS Explorer. ![See Cloned Repo](docs/source/images/Windows-Egit-Installation-Screenshots/4.5-SeeClonedRepo.png)
