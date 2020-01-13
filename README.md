@@ -1,5 +1,9 @@
 # Egit-Intallation for IBM Explorer for z/OS <!-- omit in toc -->
 
+This code pattern goes through the process of installing the Egit plug-in to IBM Explorer for z/OS Aqua. It also shows how to work with the plug-in to create a new git repository, adding an existing git repository, cloning a git repository from a remote host, and how to commit and push to a git repository. 
+
+This work is being done as a series of code patterns around bringing DevOps practices to z/OS Connect projects. 
+
 ### Sections: <!-- omit in toc -->
 - [1. Installing the eGit Plug-in](#1-installing-the-egit-plug-in)
 - [2. Creating a Git Repo with eGit](#2-creating-a-git-repo-with-egit)
