@@ -4,6 +4,10 @@ This code pattern goes through the process of installing the Egit plug-in to IBM
 
 This work is being done as part of a series of code patterns around bringing DevOps practices to z/OS Connect projects. 
 
+### Prerequisites: 
+- IBM Explorer for z/OS Aqua must be installed. If it is not installed please reference this guide on installing it: [Installing IBM Explorer for z/OS Aqua](https://www.ibm.com/support/knowledgecenter/en/SSBDYH_3.2/com.ibm.zexpl.install.client.doc/topics/install20.html)
+- Basic knowledge of the git source code manager tool. 
+
 ### Sections: <!-- omit in toc -->
 - [1. Installing the eGit Plug-in](#1-installing-the-egit-plug-in)
 - [2. Creating a Git Repo with eGit](#2-creating-a-git-repo-with-egit)
