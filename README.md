@@ -12,19 +12,15 @@ This work is being done as part of a series of code patterns around bringing Dev
 ### Sections: <!-- omit in toc -->
 
 - [1. Installing the eGit Plug-in](#1-installing-the-egit-plug-in)
+  - Follow this section to obtain the eGit Plug-in and add it to the IBM Explorer for z/OS (Aqua) environment.
 - [2. Creating a Git Repo with eGit](#2-creating-a-git-repo-with-egit)
+  - The eGit tool connects projects to a local (workstation) repository. The repository can be created manually outside the tool or using the tool's interface. This section shows how to do so within the tool BEFORE starting your project.
 - [3. Creating a Repo from an Existing Project](#3-creating-a-repo-from-an-existing-project)
+  - Follow this section if you have an existing project that you would like to initialize with a Git Repo, or add an already initialized Git Repo you would like to add to the Git perspective.
 - [4. Clone a Git Repository](#4-clone-a-git-repository)
+  - Follow this section if you would like to replicate an existing Git repository to the eGit workspace. You will then be able to work with the project artifacts.
 - [5. Working with Egit](#5-working-with-egit)
--Follow this section to obtain the eGit Plug-in and add it to the IBM Explorer for z/OS (Aqua) environment.
-- [2. Creating a Git Repo with eGit](#2-creating-a-git-repo-with-egit)
--The eGit tool connects projects to a local (workstation) repository.  The repository can be created manually outside the tool or using the tool's interface.  This section shows how to do so within the tool BEFORE starting your project.
-- [3. Creating a Repo from an Existing Project](#3-creating-a-repo-from-an-existing-project)
--Follow this section if you have an existing project that you would like to initialize with a Git Repo, or add an already initialized Git Repo you would like to add to the Git perspective.
-- [4. Clone a Git Repository](#4-clone-a-git-repository)
--Follow this section if you would like to replicate an existing Git repository to the eGit workspace.  You will then be able to work with the project artifacts.
-- [5. Working with Egit](#5-working-with-egit)
--This section reviews how to make changes to a local project, commit those changes to the local repository and push them to a remote repository.
+  - This section reviews how to make changes to a local project, commit those changes to the local repository and push them to a remote repository.
 
 ## 1. Installing the eGit Plug-in
 
