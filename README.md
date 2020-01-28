@@ -66,7 +66,7 @@ This work is being done as part of a series of code patterns around bringing Dev
 
 **3.3** Select **Git**, then click **Next**. ![Select Git](docs/source/images/Windows-Egit-Installation-Screenshots/3.3-SelectGit.png)
 
-**3.4** Click the **Create** Button. ![Click Create](docs/source/images/Windows-Egit-Installation-Screenshots/3.4-ClickCreate.png)
+**3.4** Click the **Create** Button. If your project has already been initialized as a git reposiotry then this window won't show. You will be imidiately taken to the next step. ![Click Create](docs/source/images/Windows-Egit-Installation-Screenshots/3.4-ClickCreate.png)
 
 **3.5** Choose the directory for your repository, then click **Finish**. ![Directory Location & Finish](docs/source/images/Windows-Egit-Installation-Screenshots/3.5-DirLocation&Finish.png)
 
