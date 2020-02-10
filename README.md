@@ -1,4 +1,4 @@
-# EGit-Installation for IBM Explorer for z/OS <!-- omit in toc -->
+# EGit Installation for IBM Explorer for z/OS <!-- omit in toc -->
 
 This code pattern walks through the process of installing the EGit plug-in to IBM Explorer for z/OS (z/OS Explorer). It then shows how to work with the plug-in to perform some standard tasks related to source code management with Git such as creating a new Git repository, adding an existing Git repository, cloning a Git repository from a remote host, and committing and pushing to a Git repository.
 
