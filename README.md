@@ -1,25 +1,25 @@
-# Egit-Installation for IBM Explorer for z/OS <!-- omit in toc -->
+# EGit-Installation for IBM Explorer for z/OS <!-- omit in toc -->
 
-This code pattern walks through the process of installing the EGit plug-in to IBM Explorer for z/OS Aqua. It then shows how to work with the plug-in to perform some standard tasks related to source code management with Git such as creating a new Git repository, adding an existing Git repository, cloning a Git repository from a remote host, and committing and pushing to a Git repository.
+This code pattern walks through the process of installing the EGit plug-in to IBM Explorer for z/OS (z/OS Explorer). It then shows how to work with the plug-in to perform some standard tasks related to source code management with Git such as creating a new Git repository, adding an existing Git repository, cloning a Git repository from a remote host, and committing and pushing to a Git repository.
 
 This work is being done as part of a series of code patterns centered on bringing DevOps practices to z/OS Connect projects.
 
 ### Prerequisites:
 
-- IBM Explorer for z/OS Aqua must be installed. If it is not installed please reference this guide on doing so: [Installing IBM Explorer for z/OS Aqua](https://www.ibm.com/support/knowledgecenter/en/SSBDYH_3.2/com.ibm.zexpl.install.client.doc/topics/install20.html)
+- IBM Explorer for z/OS must be installed. If it is not installed please reference this guide on doing so: [Installing IBM Explorer for z/OS Aqua](https://www.ibm.com/support/knowledgecenter/en/SSBDYH_3.2/com.ibm.zexpl.install.client.doc/topics/install20.html)
 - Basic knowledge of the git source code manager tool.
 
 ### Sections: <!-- omit in toc -->
 
 - [1. Installing the EGit Plug-in](#1-installing-the-egit-plug-in)
-  - Follow this section to obtain the eGit Plug-in and add it to the IBM Explorer for z/OS (Aqua) environment.
+  - Follow this section to obtain the eGit Plug-in and add it to the IBM Explorer for z/OS environment.
 - [2. Creating a Git Repo with EGit](#2-creating-a-git-repo-with-egit)
-  - The eGit tool connects projects to a local (workstation) repository. The repository can be created manually outside the tool or using the tool's interface. This section shows how to do so within the tool BEFORE starting your project.
+  - The EGit tool connects projects to a local (workstation) repository. The repository can be created manually outside the tool or using the tool's interface. This section shows how to do so within the tool BEFORE starting your project.
 - [3. Creating a Repo from an Existing Project](#3-creating-a-repo-from-an-existing-project)
   - Follow this section if you have an existing project that you would like to initialize with a Git Repo, or add an already initialized Git Repo you would like to add to the Git perspective.
 - [4. Clone a Git Repository](#4-clone-a-git-repository)
   - Follow this section if you would like to replicate an existing Git repository to the EGit workspace. You will then be able to work with the project artifacts.
-- [5. Working with Egit](#5-working-with-egit)
+- [5. Working with EGit](#5-working-with-egit)
   - This section reviews how to make changes to a local project, commit those changes to the local repository and push them to a remote repository.
 
 ## 1. Installing the EGit Plug-in
@@ -72,7 +72,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **3.6** Click **Finish**. ![Click Finish](docs/source/images/Windows-Egit-Installation-Screenshots/3.6-Finish.png)
 
-**3.7** The repository is now created. If you follow the sets in sections 2.2 & 2.3 to open the Git Perspective, you can see the newly created repo. ![New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/3.7-GitPerspective.png)
+**3.7** The repository is now created. If you follow the instructions in sections 2.2 & 2.3 to open the Git Perspective, you can see the newly created repo. ![New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/3.7-GitPerspective.png)
 
 ## 4. Clone a Git Repository
 
@@ -88,7 +88,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 ## 5. Working with EGit
 
-**5.1** Once your project has either been created, imported or cloned, you should now see it in the Git Perspective of IBM Explorer for z/OS. ![Git Project](docs/source/images/Windows-Egit-Installation-Screenshots/5.1-GitProject.png)
+**5.1** Once your project has either been created, imported or cloned, you should now see it in the Git Perspective of z/OS Explorer. ![Git Project](docs/source/images/Windows-Egit-Installation-Screenshots/5.1-GitProject.png)
 
 **5.2** Expand the Git Project by clicking the **>** to the left of the project. Then expand the **Working Tree** section. In this section you should see a **.git** folder, a **.project** file and the project folder itself. Expand the project folder to see all the files and folders in your project. Double click on any file to open it. ![Open Fil](docs/source/images/Windows-Egit-Installation-Screenshots/5.2-OpenFile.png)
 
@@ -106,7 +106,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **5.9** You will then be shown the results of your commit and push. Click **Close** once you are done viewing the results. ![Commit and Push Results](docs/source/images/Windows-Egit-Installation-Screenshots/5.9-CommitAndPushResults.png)
 
-**5.10** If a remote is not already added to your Git project, you can add one by expanding the Git project in the Git Perspective. Then right clicking the **Remote** section. The click **Create Remote...** ![Adding a Remote](docs/source/images/Windows-Egit-Installation-Screenshots/5.10-AddingRemote.png)
+**5.10** If a remote is not already added to your Git project, you can add one by expanding the Git Project in the Git Perspective. Then right clicking the **Remote** section. The click **Create Remote...** ![Adding a Remote](docs/source/images/Windows-Egit-Installation-Screenshots/5.10-AddingRemote.png)
 
 **5.11** Enter a name for the remote repository then click **Create**. ![Name the Remote](docs/source/images/Windows-Egit-Installation-Screenshots/5.11-NameTheRemote.png)
 
