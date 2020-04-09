@@ -49,7 +49,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **2.4** Select **Create new local Git repository** ![Select Create New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
 
-**2.5** Select the Directory you wish to create a git repository for. Then click **Create**. ![Select Dir](docs/source/images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
+**2.5** Select the Directory you wish the git repository to be saved in. *A sample path you can use is: **C:Users\<your-user-name>\git\repository**.* Then click **Create**. ![Select Dir](docs/source/images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
 
 **2.6** See that the repository now shows up in the **Git Repositories** view. ![Git Repo View ](docs/source/images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
 
