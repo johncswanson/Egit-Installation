@@ -25,7 +25,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **1.3** Click the **Add** Button. ![Add Button](docs/source/images/Windows-Egit-Installation-Screenshots/1.3-AddButton.png)
 
-**1.4** Type "EGit" for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](docs/source/images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
+**1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](docs/source/images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
 
 **1.5** Click the check box next to **Git integration for Eclipse**. Also, click the check box next to **Show only software applicable to target environment**. Then click **Next**. ![Check Boxes](docs/source/images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
 
@@ -49,7 +49,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **2.4** Select **Create new local Git repository** ![Select Create New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
 
-**2.5** Select the Directory you wish to create a git repository for. Then click **Create**. ![Select Dir](docs/source/images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
+**2.5** Select the Directory you wish the git repository to be saved in. *A sample path you can use is: **C:Users\<your-user-name>\git\repository**.* Then click **Create**. ![Select Dir](docs/source/images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
 
 **2.6** See that the repository now shows up in the **Git Repositories** view. ![Git Repo View ](docs/source/images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
 
@@ -75,9 +75,15 @@ This work is being done as part of a series of code patterns centered on bringin
 
 ## 4. Clone a Git Repository
 
+**4.0 Set Up:** Create a GitHub account and Fork the repo.
+- **4.0.1** Click this link: [GitHub SignUp](https://github.com/join?source=header), and create a GitHub account. 
+- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> *This will create a copy of this repository under your GitHub account.* ![ForkRepo](docs\source\images\Windows-Egit-Installation-Screenshots\4.0.2-ForkRepo.png)
+- **4.0.3** Now for the rest of this code pattern you will be using the GitHub repositoy under your account. 
+
 **4.1** Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
 
-**4.2** Enter the information of the repository you wish to clone. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. If not port is specified the default port will be used and if no User ID and Password are provided it will assume there is no authentication needed. Then click **Next >**. ![EnterRepoInfo](docs/source/images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
+**4.2** Enter the information of the repository you wish to clone. To find the URI for your newly forked repo, click the **Clone or download** button on your GitHub Repo Page. ![CloneOrDownloadButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.1-CloneOrDownloadButton.png) Then click the **Copy** button next to the URL to copy it to your clipboard. <br/> ![CopyURIButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.2-CopyURIButton.png) <br/> 
+Paste the URI into the **URI** field. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. If no port is specified the default port will be used. In the **Authentication** section enter your GitHub username in the **User:** field and you GitHub password in the **Password:** field. Then click **Next >**. ![EnterRepoInfo](docs/source/images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
 
 **4.3** Select the Branches you wish to clone then click **Next >**. ![Branch Selection](docs/source/images/Windows-Egit-Installation-Screenshots/4.3-BranchSelection.png)
 
