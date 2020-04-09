@@ -12,15 +12,10 @@ This work is being done as part of a series of code patterns centered on bringin
 ### Sections: <!-- omit in toc -->
 
 - [1. Installing the EGit Plug-in](#1-installing-the-egit-plug-in)
-  - Follow this section to obtain the eGit Plug-in and add it to the IBM Explorer for z/OS environment.
 - [2. Creating a Git Repo with EGit](#2-creating-a-git-repo-with-egit)
-  - The EGit tool connects projects to a local (workstation) repository. The repository can be created manually outside the tool or using the tool's interface. This section shows how to do so within the tool BEFORE starting your project.
 - [3. Creating a Repo from an Existing Project](#3-creating-a-repo-from-an-existing-project)
-  - Follow this section if you have an existing project that you would like to initialize with a Git Repo, or add an already initialized Git Repo you would like to add to the Git perspective.
 - [4. Clone a Git Repository](#4-clone-a-git-repository)
-  - Follow this section if you would like to replicate an existing Git repository to the EGit workspace. You will then be able to work with the project artifacts.
 - [5. Working with EGit](#5-working-with-egit)
-  - This section reviews how to make changes to a local project, commit those changes to the local repository and push them to a remote repository.
 
 ## 1. Installing the EGit Plug-in
 
@@ -59,6 +54,10 @@ This work is being done as part of a series of code patterns centered on bringin
 **2.6** See that the repository now shows up in the **Git Repositories** view. ![Git Repo View ](docs/source/images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
 
 ## 3. Creating a Repo from an Existing Project
+
+**3.0** **Set Up:** Creating a Project Example.
+- **3.0.1** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **z/OS Projects** perspective, then click **OK**. (*If you don't have the z/OS Projects perspective available, then jump to step 3.0.2*) Right click in the z/OS Projects view, then click **New -> z/OS Project...**. Enter a name for the project in the **Project name:** field (for example: "ProjectExample"). Then select **Do not create a subproject now**, then click **Finish**.
+- **3.0.2** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **Resource** perspective, then click **OK**. Right click in the Project Explorer view, then click **New -> Project...**. Next, in the wizard select the dropdown next to the **General** folder, then select **Project**, and click **Next** at the bottom. Then type a project name in the **Project name:** field (for example: "ProjectExample"). Then click **Finish**. 
 
 **3.1** Open a Project in the **Project Explorer**. ![Open Project](docs/source/images/Windows-Egit-Installation-Screenshots/3.1-OpenProject.png)
 
