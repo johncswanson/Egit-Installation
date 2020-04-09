@@ -83,7 +83,7 @@ This work is being done as part of a series of code patterns centered on bringin
 **4.1** Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
 
 **4.2** Enter the information of the repository you wish to clone. To find the URI for your newly forked repo, click the **Clone or download** button on your GitHub Repo Page. ![CloneOrDownloadButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.1-CloneOrDownloadButton.png) Then click the **Copy** button next to the URL to copy it to your clipboard. <br/> ![CopyURIButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.2-CopyURIButton.png) <br/> 
-Paste the URI into the **URI** field. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. If no port is specified the default port will be used and if no User ID and Password are provided it will assume there is no authentication needed. Then click **Next >**. ![EnterRepoInfo](docs/source/images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
+Paste the URI into the **URI** field. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. If no port is specified the default port will be used. In the **Authentication** section enter your GitHub username in the **User:** field and you GitHub password in the **Password:** field. Then click **Next >**. ![EnterRepoInfo](docs/source/images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
 
 **4.3** Select the Branches you wish to clone then click **Next >**. ![Branch Selection](docs/source/images/Windows-Egit-Installation-Screenshots/4.3-BranchSelection.png)
 
