@@ -25,7 +25,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **1.3** Click the **Add** Button. ![Add Button](docs/source/images/Windows-Egit-Installation-Screenshots/1.3-AddButton.png)
 
-**1.4** Type "EGit" for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](docs/source/images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
+**1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](docs/source/images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
 
 **1.5** Click the check box next to **Git integration for Eclipse**. Also, click the check box next to **Show only software applicable to target environment**. Then click **Next**. ![Check Boxes](docs/source/images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
 
