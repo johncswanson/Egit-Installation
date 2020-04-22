@@ -79,7 +79,7 @@ This work is being done as part of a series of code patterns centered on bringin
 **4.0 Set Up:** Create a GitHub account and Fork the repo.
 
 - **4.0.1** Click this link: [GitHub SignUp](https://github.com/join?source=header), and create a GitHub account.
-- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs\source\images\Windows-Egit-Installation-Screenshots\4.0.2-ForkRepo.png)
+- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
 - **4.0.3** Now for the rest of this code pattern you will be using the GitHub repositoy under your account.
 
 **4.1** Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
