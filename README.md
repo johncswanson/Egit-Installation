@@ -95,6 +95,8 @@ Paste the URI into the **URI** field. As you enter the **URI** the **Host** and 
 
 ## 5. Working with EGit
 
+**5.0** Now that we have walked through the different ways of starting your git project we will discuss how to work with your git repository. For this section it would be best if you used the repository you forked from this code pattern and then cloned down.
+
 **5.1** Once your project has either been created, imported or cloned, you should now see it in the Git Perspective of z/OS Explorer. ![Git Project](docs/source/images/Windows-Egit-Installation-Screenshots/5.1-GitProject.png)
 
 **5.2** Expand the Git Project by clicking the **>** to the left of the project. Then expand the **Working Tree** section. In this section you should see a **.git** folder, a **.project** file and the project folder itself. Expand the project folder to see all the files and folders in your project. Double click on any file to open it. ![Open Fil](docs/source/images/Windows-Egit-Installation-Screenshots/5.2-OpenFile.png)
