@@ -27,7 +27,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](docs/source/images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
 
-**1.5** Click the check box next to **Git integration for Eclipse**. Also, click the check box next to **Show only software applicable to target environment**. Then click **Next**. ![Check Boxes](docs/source/images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
+**1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**, all the other checkboxes in the bottom section should have been checked by defualt. Then click **Next**. ![Check Boxes](docs/source/images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
 
 **1.6** Click the **Next** Button. ![Install Remediation Page](docs/source/images/Windows-Egit-Installation-Screenshots/1.6-InstallRemediationPage.png)
 
