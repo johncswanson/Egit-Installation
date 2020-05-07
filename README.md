@@ -49,15 +49,16 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **2.4** Select **Create new local Git repository** ![Select Create New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
 
-**2.5** Select the Directory you wish the git repository to be saved in. *A sample path you can use is: **C:Users\<your-user-name>\git\repository**.* Then click **Create**. ![Select Dir](docs/source/images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
+**2.5** Select the Directory you wish the git repository to be saved in. _A sample path you can use is: **C:Users\<your-user-name>\git\repository**._ Then click **Create**. ![Select Dir](docs/source/images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
 
 **2.6** See that the repository now shows up in the **Git Repositories** view. ![Git Repo View ](docs/source/images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
 
 ## 3. Creating a Repo from an Existing Project
 
 **3.0** **Set Up:** Creating a Project Example.
-- **3.0.1** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **z/OS Projects** perspective, then click **OK**. (*If you don't have the z/OS Projects perspective available, then jump to step 3.0.2*) Right click in the z/OS Projects view, then click **New -> z/OS Project...**. Enter a name for the project in the **Project name:** field (for example: "ProjectExample"). Then select **Do not create a subproject now**, then click **Finish**.
-- **3.0.2** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **Resource** perspective, then click **OK**. Right click in the Project Explorer view, then click **New -> Project...**. Next, in the wizard select the dropdown next to the **General** folder, then select **Project**, and click **Next** at the bottom. Then type a project name in the **Project name:** field (for example: "ProjectExample"). Then click **Finish**. 
+
+- **3.0.1** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **z/OS Projects** perspective, then click **OK**. (_If you don't have the z/OS Projects perspective available, then jump to step 3.0.2_) Right click in the z/OS Projects view, then click **New -> z/OS Project...**. Enter a name for the project in the **Project name:** field (for example: "ProjectExample"). Then select **Do not create a subproject now**, then click **Finish**. Now jump to step **3.1**.
+- **3.0.2** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **Resource** perspective, then click **OK**. Right click in the Project Explorer view, then click **New -> Project...**. Next, in the wizard select the dropdown next to the **General** folder, then select **Project**, and click **Next** at the bottom. Then type a project name in the **Project name:** field (for example: "ProjectExample"). Then click **Finish**.
 
 **3.1** Open a Project in the **Project Explorer**. ![Open Project](docs/source/images/Windows-Egit-Installation-Screenshots/3.1-OpenProject.png)
 
@@ -76,13 +77,14 @@ This work is being done as part of a series of code patterns centered on bringin
 ## 4. Clone a Git Repository
 
 **4.0 Set Up:** Create a GitHub account and Fork the repo.
-- **4.0.1** Click this link: [GitHub SignUp](https://github.com/join?source=header), and create a GitHub account. 
-- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> *This will create a copy of this repository under your GitHub account.* ![ForkRepo](docs\source\images\Windows-Egit-Installation-Screenshots\4.0.2-ForkRepo.png)
-- **4.0.3** Now for the rest of this code pattern you will be using the GitHub repositoy under your account. 
+
+- **4.0.1** Click this link: [GitHub SignUp](https://github.com/join?source=header), and create a GitHub account.
+- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs\source\images\Windows-Egit-Installation-Screenshots\4.0.2-ForkRepo.png)
+- **4.0.3** Now for the rest of this code pattern you will be using the GitHub repositoy under your account.
 
 **4.1** Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
 
-**4.2** Enter the information of the repository you wish to clone. To find the URI for your newly forked repo, click the **Clone or download** button on your GitHub Repo Page. ![CloneOrDownloadButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.1-CloneOrDownloadButton.png) Then click the **Copy** button next to the URL to copy it to your clipboard. <br/> ![CopyURIButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.2-CopyURIButton.png) <br/> 
+**4.2** Enter the information of the repository you wish to clone. To find the URI for your newly forked repo, click the **Clone or download** button on your GitHub Repo Page. ![CloneOrDownloadButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.1-CloneOrDownloadButton.png) Then click the **Copy** button next to the URL to copy it to your clipboard. <br/> ![CopyURIButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.2-CopyURIButton.png) <br/>
 Paste the URI into the **URI** field. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. If no port is specified the default port will be used. In the **Authentication** section enter your GitHub username in the **User:** field and you GitHub password in the **Password:** field. Then click **Next >**. ![EnterRepoInfo](docs/source/images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
 
 **4.3** Select the Branches you wish to clone then click **Next >**. ![Branch Selection](docs/source/images/Windows-Egit-Installation-Screenshots/4.3-BranchSelection.png)
