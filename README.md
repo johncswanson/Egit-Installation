@@ -53,6 +53,14 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **2.6** See that the repository now shows up in the **Git Repositories** view. ![Git Repo View ](docs/source/images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
 
+**OPTIONAL 2.7** If you would like to remove the git repository from the list follow these instructions.
+
+- **2.7.1** Right Click the repository you wish to remove. Then select **"Remove Repository from View"** in the drop down. A pop-up will appear asking if you would like to remove the projects in the git repository from the workspace, if so click **Yes**, if not click **No**. Now the repository should be removed from the list.
+
+**OPTIONAL 2.8** If you would liek to delete the repository now that we are done using it follow these instructions.
+
+- **2.8.1** Right Click the repository you wish to delete. Then select **"Delete Repository..."** in the drop down. A pop-up will appear. You will see two checkboxes in the pop-up. If the first checkbox is checked it will delete the git repository but not the actual project files. If both check boxes are checked it will delete the git repository and the project files. Once you have selected the options to like, click **"Delete"**. The repository should now be deleted and removed from the list.
+
 ## 3. Creating a Repo from an Existing Project
 
 **3.0** **Set Up:** Creating a Project Example.
@@ -73,6 +81,8 @@ This work is being done as part of a series of code patterns centered on bringin
 **3.6** Click **Finish**. ![Click Finish](docs/source/images/Windows-Egit-Installation-Screenshots/3.6-Finish.png)
 
 **3.7** The repository is now created. If you follow the instructions in sections 2.2 & 2.3 to open the Git Perspective, you can see the newly created repo. ![New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/3.7-GitPerspective.png)
+
+**OPTIONAL 3.8** Now that we are done creating a repository from an exisiting project, you may repeat step **2.7** or **2.8** if you wish to remove or delete the repository.
 
 ## 4. Clone a Git Repository
 
