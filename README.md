@@ -31,7 +31,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](docs/source/images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
 
-**1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**, all the other checkboxes in the bottom section should have been checked by defualt. Then click **Next**. ![Check Boxes](docs/source/images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
+**1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**, all the other checkboxes in the bottom section should have been checked by default. Then click **Next**. ![Check Boxes](docs/source/images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
 
 **1.6** Click the **Next** Button. ![Install Remediation Page](docs/source/images/Windows-Egit-Installation-Screenshots/1.6-InstallRemediationPage.png)
 
@@ -61,7 +61,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 - **2.7.1** Right Click the repository you wish to remove. Then select **"Remove Repository from View"** in the drop down. A pop-up will appear asking if you would like to remove the projects in the git repository from the workspace, if so click **Yes**, if not click **No**. Now the repository should be removed from the list.
 
-**OPTIONAL 2.8** If you would liek to delete the repository now that we are done using it follow these instructions.
+**OPTIONAL 2.8** If you would like to delete the repository now that we are done using it follow these instructions.
 
 - **2.8.1** Right Click the repository you wish to delete. Then select **"Delete Repository..."** in the drop down. A pop-up will appear. You will see two checkboxes in the pop-up. If the first checkbox is checked it will delete the git repository but not the actual project files. If both check boxes are checked it will delete the git repository and the project files. Once you have selected the options to like, click **"Delete"**. The repository should now be deleted and removed from the list.
 
@@ -69,8 +69,8 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **3.0** **Set Up:** Creating a Project Example.
 
-- **3.0.1** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **z/OS Projects** perspective, then click **OK**. (_If you don't have the z/OS Projects perspective available, then jump to step 3.0.2_) Right click in the z/OS Projects view, then click **New -> z/OS Project...**. Enter a name for the project in the **Project name:** field (for example: "ProjectExample"). Then select **Do not create a subproject now**, then click **Finish**. Now jump to step **3.1**.
-- **3.0.2** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **Resource** perspective, then click **OK**. Right click in the Project Explorer view, then click **New -> Project...**. Next, in the wizard select the dropdown next to the **General** folder, then select **Project**, and click **Next** at the bottom. Then type a project name in the **Project name:** field (for example: "ProjectExample"). Then click **Finish**.
+- **3.0.1** Click **Window -> Perspective -> Open Perspective -> Other...**. Then select the **z/OS Projects** perspective, then click **OK**. (_If you don't have the z/OS Projects perspective available, then jump to step 3.0.2_) Right click in the z/OS Projects view, then click **New -> z/OS Project...**. Enter a name for the project in the **Project name:** field (for example: "ProjectExample"). Then select **Do not create a subproject now**, then click **Finish**. Now jump to step **3.1**.
+- **3.0.2** Click **Window -> Perspective -> Open Perspective -> Other...**. Then select the **Resource** perspective, then click **OK**. Right click in the Project Explorer view, then click **New -> Project...**. Next, in the wizard select the dropdown next to the **General** folder, then select **Project**, and click **Next** at the bottom. Then type a project name in the **Project name:** field (for example: "ProjectExample"). Then click **Finish**.
 
 **3.1** Find your project in the **Project Explorer**. ![Open Project](docs/source/images/Windows-Egit-Installation-Screenshots/3.1-OpenProject.png)
 
@@ -86,7 +86,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **3.7** The repository is now created. If you follow the instructions in sections 2.2 & 2.3 to open the Git Perspective, you can see the newly created repo. ![New Repo](docs/source/images/Windows-Egit-Installation-Screenshots/3.7-GitPerspective.png)
 
-**OPTIONAL 3.8** Now that we are done creating a repository from an exisiting project, you may repeat step **2.7** or **2.8** if you wish to remove or delete the repository.
+**OPTIONAL 3.8** Now that we are done creating a repository from an existing project, you may repeat step **2.7** or **2.8** if you wish to remove or delete the repository.
 
 ## 4. Clone a Git Repository
 
@@ -98,11 +98,11 @@ _Note: Cloning a repository will **copy** the repository from a hosted remote lo
 
 - **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
 
-- **4.0.3** Now for the rest of this code pattern you will be using the GitHub repositoy under your own account.
+- **4.0.3** Now for the rest of this code pattern you will be using the GitHub repository under your own account.
 
 **4.1** Now back in IBM Explorer for z/OS, Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
 
-**4.2** Enter the information of the repository you wish to clone. To find the URI for your newly forked repo, click the **Clone or download** button on your GitHub Repo Page. ![CloneOrDownloadButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.1-CloneOrDownloadButton.png) _(This button is located at the top of your GitHub Repo's page)_ <br />
+**4.2** Enter the information of the repository you wish to clone. To find the URI for your newly forked repo, click the **Clone or download** button on your GitHub Repo Page. ![CloneOrDownloadButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.1-CloneOrDownloadButton.png) _(This button is located at the top of your GitHub Repository's page)_ <br />
 Then click the **Copy** button next to the URL to copy it to your clipboard. <br/> ![CopyURIButton](docs/source/images/Windows-Egit-Installation-Screenshots/4.2.2-CopyURIButton.png) <br/>
 Paste the URI into the **URI** field. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. _(Note that in the your URI should follow this pattern: https://github.com/\<your-github-username>/Egit-Installtion.git)_ If no port is specified the default port will be used. In the **Authentication** section enter your GitHub username in the **User:** field and you GitHub password in the **Password:** field. Then click **Next >**. ![EnterRepoInfo](docs/source/images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
 
@@ -120,7 +120,7 @@ Paste the URI into the **URI** field. As you enter the **URI** the **Host** and 
 
 **5.1** Once your project has either been created, imported or cloned, you should now see it in the Git Perspective of z/OS Explorer. ![Git Project](docs/source/images/Windows-Egit-Installation-Screenshots/5.1-GitProject.png)
 
-**5.2** Expand the Git Project by clicking the arrow to the left of the project. Then from the drop down, expand the **Branches** section, then expand both the **Local** and **Remote**. This section shows you the different branches of your git repository. A branch is an independent line of development, meaning you can make a branch off of the main line (your production source code) and work in that branch witout effecting the main branch. This is how git handles parallel development.Each developer can work in their own branch without having to worry about what another developer is doing. Then when you development branch is finished it can be incorperated back into the main branch. _Note: In git the main branch is commonly named **master**._ The branches under the **Local** section are the branches that are available on your local machine. The branches under the **Remote** section are the branches that are available on the remote git server (in our case this is GitHub).
+**5.2** Expand the Git Project by clicking the arrow to the left of the project. Then from the drop down, expand the **Branches** section, then expand both the **Local** and **Remote**. This section shows you the different branches of your git repository. A branch is an independent line of development, meaning you can make a branch off of the main line (your production source code) and work in that branch without effecting the main branch. This is how git handles parallel development.Each developer can work in their own branch without having to worry about what another developer is doing. Then when you development branch is finished it can be incorporated back into the main branch. _Note: In git the main branch is commonly named **master**._ The branches under the **Local** section are the branches that are available on your local machine. The branches under the **Remote** section are the branches that are available on the remote git server (in our case this is GitHub).
 ![Expand Branches](docs/source/images/Windows-Egit-Installation-Screenshots/5.2-ExpandBranches.png)
 
 **5.3** Please note, in the **Local** section, the **master** branch has a check mark on it. This means that the **master** branch is currently checked-out, meaning when we look at the source code we are looking at the source code in the **master** branch.
@@ -145,7 +145,7 @@ Paste the URI into the **URI** field. As you enter the **URI** the **Host** and 
 
 **5.13** You should now see that the file has moved to the **Staged Changes** section. So now the change will be included when we commit our code. ![Stage Changes Section](docs/source/images/Windows-Egit-Installation-Screenshots/5.13-StagedChange.png)
 
-**5.14** Now lets commit our new change. In the **Commit Message** section wrtie a commit that describes the change we made. ![Commit Message](docs/source/images/Windows-Egit-Installation-Screenshots/5.14-CommitMessage.png)
+**5.14** Now lets commit our new change. In the **Commit Message** section write a commit that describes the change we made. ![Commit Message](docs/source/images/Windows-Egit-Installation-Screenshots/5.14-CommitMessage.png)
 
 **5.15** Now we can choose to either just **Commit** our changes or **Commit and Push** our changes. If we **Commit** our changed it will be saved to the branch we are working in (the **development** branch) on our local machine. If we **Commit and Push** then our change will be saved to our branch locally and it will then push up our local copy of our branch to GitHub. If there is already a **development** branch on GitHub our code will be added to that branch. If there is no **development** branch then a **development** branch will be created. Lets click the **Commit and Push...** button. ![Commit and Push](docs/source/images/Windows-Egit-Installation-Screenshots/5.15-CommitAndPush.png)
 
@@ -157,7 +157,7 @@ Paste the URI into the **URI** field. As you enter the **URI** the **Host** and 
 
 **5.19** You should now see a window that looks like the one below. This is confirming our branch was pushed up to GitHub. Click the **Close** button. ![Push Confirmed](docs/source/images/Windows-Egit-Installation-Screenshots/5.19-PushConfirmed.png)
 
-**5.20** Now, lets go back to GtiHub to incorperate our **development** branch into our **master** branch. Back on out GitHub Repo Page, click the **Pull Requests** tab at the top. ![Pull Requests Tab](docs/source/images/Windows-Egit-Installation-Screenshots/5.20-PullRequestsTab.png)
+**5.20** Now, lets go back to GtiHub to incorporate our **development** branch into our **master** branch. Back on out GitHub Repo Page, click the **Pull Requests** tab at the top. ![Pull Requests Tab](docs/source/images/Windows-Egit-Installation-Screenshots/5.20-PullRequestsTab.png)
 
 **5.21** Now click the **New Pull Request** button. ![New Pull Request Button](docs/source/images/Windows-Egit-Installation-Screenshots/5.21-NewPullRequestButton.png)
 
@@ -174,10 +174,10 @@ Paste the URI into the **URI** field. As you enter the **URI** the **Host** and 
 **5.27** You should now see a purple **Merged** icon on the screen.
 ![Merged Icon](docs/source/images/Windows-Egit-Installation-Screenshots/5.27-MergedIcon.png)
 
-**5.28** Now our changes from our **development** branch have be encorperated into the **master** branch. If we click the **Code** tab at the top of the page we can view the source code. ![Code Tab](docs/source/images/Windows-Egit-Installation-Screenshots/5.28-CodeTab.png)
+**5.28** Now our changes from our **development** branch have been incorporated into the **master** branch. If we click the **Code** tab at the top of the page we can view the source code. ![Code Tab](docs/source/images/Windows-Egit-Installation-Screenshots/5.28-CodeTab.png)
 
 **5.29** Now we can see that the **master** branch is selected, lets click on the `sample.txt` file.![Sample File](docs/source/images/Windows-Egit-Installation-Screenshots/5.29-SampleFile.png)
 
-**5.30** Here we can see that our new line is added to the file on the **master** branch, so we have successfully incorperated our changes from our **development** branch into the **master** branch. ![Confirm Change](docs/source/images/Windows-Egit-Installation-Screenshots/5.30-ConfirmChange.png)
+**5.30** Here we can see that our new line is added to the file on the **master** branch, so we have successfully incorporated our changes from our **development** branch into the **master** branch. ![Confirm Change](docs/source/images/Windows-Egit-Installation-Screenshots/5.30-ConfirmChange.png)
 
 ### This marks the end of the code pattern. Thank you for finishing it. If you have any comments for feedback please create an issue on this GitHub repository and please checkout the many more code patterns available on the [IBM Developer site](https://developer.ibm.com/patterns/).
