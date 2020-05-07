@@ -27,7 +27,7 @@ This work is being done as part of a series of code patterns centered on bringin
 
 **1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](docs/source/images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
 
-**1.5** Click the check box next to **Git integration for Eclipse**. Also, click the check box next to **Show only software applicable to target environment**. Then click **Next**. ![Check Boxes](docs/source/images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
+**1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**, all the other checkboxes in the bottom section should have been checked by defualt. Then click **Next**. ![Check Boxes](docs/source/images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
 
 **1.6** Click the **Next** Button. ![Install Remediation Page](docs/source/images/Windows-Egit-Installation-Screenshots/1.6-InstallRemediationPage.png)
 
@@ -79,7 +79,10 @@ This work is being done as part of a series of code patterns centered on bringin
 **4.0 Set Up:** Create a GitHub account and Fork the repo.
 
 - **4.0.1** Click this link: [GitHub SignUp](https://github.com/join?source=header), and create a GitHub account.
-- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs\source\images\Windows-Egit-Installation-Screenshots\4.0.2-ForkRepo.png)
+  <<<<<<< HEAD
+- # **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs\source\images\Windows-Egit-Installation-Screenshots\4.0.2-ForkRepo.png)
+- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
+  > > > > > > > 67c8916fbb671a1998c1d87e372c0ff7e48a4adc
 - **4.0.3** Now for the rest of this code pattern you will be using the GitHub repositoy under your account.
 
 **4.1** Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
@@ -95,13 +98,15 @@ Paste the URI into the **URI** field. As you enter the **URI** the **Host** and 
 
 ## 5. Working with EGit
 
+**5.0** Now that we have walked through the different ways of starting your git project we will discuss how to work with your git repository. For this section it would be best if you used the repository you forked from this code pattern and then cloned down.
+
 **5.1** Once your project has either been created, imported or cloned, you should now see it in the Git Perspective of z/OS Explorer. ![Git Project](docs/source/images/Windows-Egit-Installation-Screenshots/5.1-GitProject.png)
 
 **5.2** Expand the Git Project by clicking the **>** to the left of the project. Then expand the **Working Tree** section. In this section you should see a **.git** folder, a **.project** file and the project folder itself. Expand the project folder to see all the files and folders in your project. Double click on any file to open it. ![Open Fil](docs/source/images/Windows-Egit-Installation-Screenshots/5.2-OpenFile.png)
 
 **5.3** Make a change to the file you opened, then save the file. ![Make a Change](docs/source/images/Windows-Egit-Installation-Screenshots/5.3-MakeAChange.png)
 
-**5.4** Once you save the file, it should appear in the **Unstaged Changes** section below. ![Unstaged Changes](docs/source/images/Windows-Egit-Installation-Screenshots/5.4-UnstagedChanges.png)
+**5.4** Once you save the file, it should appear in the **Unstaged Changes** section at the bottom of the window. ![Unstaged Changes](docs/source/images/Windows-Egit-Installation-Screenshots/5.4-UnstagedChanges.png)
 
 **5.5** Click the plus symbol to stage only the selected files or click the double plus symbol to stage all unstaged changes. ![Stage Changes](docs/source/images/Windows-Egit-Installation-Screenshots/5.5-StageChanges.png)
 
