@@ -60,7 +60,7 @@ This work is being done as part of a series of code patterns centered on bringin
 - **3.0.1** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **z/OS Projects** perspective, then click **OK**. (_If you don't have the z/OS Projects perspective available, then jump to step 3.0.2_) Right click in the z/OS Projects view, then click **New -> z/OS Project...**. Enter a name for the project in the **Project name:** field (for example: "ProjectExample"). Then select **Do not create a subproject now**, then click **Finish**. Now jump to step **3.1**.
 - **3.0.2** Click **Window -> Perspecitve -> Open Perspective -> Other...**. Then select the **Resource** perspective, then click **OK**. Right click in the Project Explorer view, then click **New -> Project...**. Next, in the wizard select the dropdown next to the **General** folder, then select **Project**, and click **Next** at the bottom. Then type a project name in the **Project name:** field (for example: "ProjectExample"). Then click **Finish**.
 
-**3.1** Open a Project in the **Project Explorer**. ![Open Project](docs/source/images/Windows-Egit-Installation-Screenshots/3.1-OpenProject.png)
+**3.1** Find your project in the **Project Explorer**. ![Open Project](docs/source/images/Windows-Egit-Installation-Screenshots/3.1-OpenProject.png)
 
 **3.2** Right click on the Project. Then click **Team** -> **Share Project...** ![Share Project](docs/source/images/Windows-Egit-Installation-Screenshots/3.2-ShareProject.png)
 
@@ -79,10 +79,9 @@ This work is being done as part of a series of code patterns centered on bringin
 **4.0 Set Up:** Create a GitHub account and Fork the repo.
 
 - **4.0.1** Click this link: [GitHub SignUp](https://github.com/join?source=header), and create a GitHub account.
-  <<<<<<< HEAD
-- # **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs\source\images\Windows-Egit-Installation-Screenshots\4.0.2-ForkRepo.png)
+
 - **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
-  > > > > > > > 67c8916fbb671a1998c1d87e372c0ff7e48a4adc
+
 - **4.0.3** Now for the rest of this code pattern you will be using the GitHub repositoy under your account.
 
 **4.1** Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](docs/source/images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
