@@ -69,7 +69,7 @@ Now that our plug-in is installed, let's create a repository we can work with.  
 - **2.8.1** Right click the repository you wish to delete. Then select **"Delete Repository..."** in the drop down. A pop-up will appear with two checkboxes. If the first checkbox is checked it will delete the Git repository but not the actual project files. If both check boxes are checked it will delete the Git repository and the project files. Once you have selected the options to like, click **"Delete"**. The repository should now be deleted and removed from the list.
 
 ## 3. Creating a Repo from an Existing Project
-abcdefghikjklmnop
+Instead of starting with an empty repostiory, you might want to start a repository based on a project you already have in z/OS Explorer.  Follow these steps to do so:
 
 **3.0** **Set Up:** Creating a Project Example.
 
@@ -93,16 +93,15 @@ abcdefghikjklmnop
 **OPTIONAL 3.8** Now that we are done creating a repository from an existing project, you may repeat step **2.7** or **2.8** if you wish to remove or delete the repository.
 
 ## 4. Clone a Git Repository
-
-_Note: Cloning a repository will **copy** the repository from a hosted remote location, like GitHub, GitLab or Bitbucket. Giving you a copy of not only the source code but also a full copy of the history of the source code that has been recorded by Git._
+Cloning a repository will **copy** the repository from a hosted remote location, like GitHub, GitLab or Bitbucket. This will give you a copy of not only the source code but also a full copy of the history of the source code that has been recorded by Git._
 
 **4.0 Set Up:** Create a GitHub account and Fork the repo.
 
-- **4.0.1** Click this link: [GitHub SignUp](https://github.com/join?source=header), and create a GitHub account.
+- **4.0.1** If you don't already have a GitHub account, you can [create GitHub account here](https://github.com/join?source=header).
 
 - **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
 
-- **4.0.3** Now for the rest of this code pattern you will be using the GitHub repository under your own account.
+- **4.0.3** For the rest of these instructions you will be using the GitHub repository under your own account.
 
 **4.1** Now back in IBM Explorer for z/OS, Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
 
@@ -110,15 +109,16 @@ _Note: Cloning a repository will **copy** the repository from a hosted remote lo
 Then click the **Copy** button next to the URL to copy it to your clipboard. <br/> ![CopyURIButton](images/Windows-Egit-Installation-Screenshots/4.2.2-CopyURIButton.png) <br/>
 Paste the URI into the **URI** field. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. _(Note that in the your URI should follow this pattern: https://github.com/\<your-github-username>/Egit-Installtion.git)_ If no port is specified the default port will be used. In the **Authentication** section enter your GitHub username in the **User:** field and you GitHub password in the **Password:** field. Then click **Next >**. ![EnterRepoInfo](images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
 
-**4.3** In this window we can select the branches we can clone. We only need the **"master"** branch, so click the checkbox next to it then click **Next >**. _(Note: we will cover what a branch is in Section 5)_ ![Branch Selection](images/Windows-Egit-Installation-Screenshots/4.3-BranchSelection.png)
+**4.3** In this window you can select the branches to clone. We only need the **"master"** branch, so click the checkbox next to it then click **Next >**. _(Note: we will cover what a branch is in Section 5)_ ![Branch Selection](images/Windows-Egit-Installation-Screenshots/4.3-BranchSelection.png)
 
-**4.4** Enter the location on you machine to which you would like to save the cloned repository in the **"Directory"** field. Then click **Finish**. ![Branch Selection](images/Windows-Egit-Installation-Screenshots/4.4-LocalDestination.png)
+**4.4** Enter the location on your machine where you would like to save the cloned repository in the **"Directory"** field. Then click **Finish**. ![Branch Selection](images/Windows-Egit-Installation-Screenshots/4.4-LocalDestination.png)
 
 **4.5** Now your cloned repository should show up in the Git Perspective of z/OS Explorer. ![See Cloned Repo](images/Windows-Egit-Installation-Screenshots/4.5-SeeClonedRepo.png)
 
-**4.6** Now for Section 5, do not remove or delete the repository you just cloned. We will be using it in the next section.
+**4.6** Do not remove or delete the repository you just cloned. We will be using it in the next section.
 
 ## 5. Working with EGit
+aaaaaaaa
 
 **5.0** Now that we have walked through the different ways of starting your git project we will discuss how to work with your git repository. For this section it would be best if you used the repository you forked from this code pattern and then cloned down.
 
