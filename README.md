@@ -97,9 +97,9 @@ Cloning a repository will **copy** the repository from a hosted remote location,
 
 **4.0 Set Up:** Create a GitHub account and Fork the repo.
 
-- **4.0.1** If you don't already have a GitHub account, you can [create GitHub account here](https://github.com/join?source=header).
+- **4.0.1** If you don't already have a GitHub account, you can [create GitHub account here](https://github.com/join).
 
-- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of this GitHub Repo. <br/> _This will create a copy of this repository under your GitHub account._ ![ForkRepo](images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
+- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of the GitHub repo with the README you are reading now. <br/> _This will create a copy of this repository under your GitHub account._ Note that the following screenshots show a different repo name than what you should be using in these steps. ![ForkRepo](images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
 
 - **4.0.3** For the rest of these instructions you will be using the GitHub repository under your own account.
 
@@ -107,7 +107,7 @@ Cloning a repository will **copy** the repository from a hosted remote location,
 
 **4.2** Enter the information of the repository you wish to clone. To find the URI for your newly forked repo, click the **Clone or download** button on your GitHub Repo Page. ![CloneOrDownloadButton](images/Windows-Egit-Installation-Screenshots/4.2.1-CloneOrDownloadButton.png) _(This button is located at the top of your GitHub Repository's page)_ <br />
 Then click the **Copy** button next to the URL to copy it to your clipboard. <br/> ![CopyURIButton](images/Windows-Egit-Installation-Screenshots/4.2.2-CopyURIButton.png) <br/>
-Paste the URI into the **URI** field. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. _(Note that in the your URI should follow this pattern: https://github.com/\<your-github-username>/Egit-Installtion.git)_ If no port is specified the default port will be used. In the **Authentication** section enter your GitHub username in the **User:** field and you GitHub password in the **Password:** field. Then click **Next >**. ![EnterRepoInfo](images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
+Paste the URI into the **URI** field. As you enter the **URI** the **Host** and **Repository Path** should fill themselves out. _(Note that in the your URI should follow this pattern: https://github.com/<your-github-username>/Egit-Installtion.git)_ If no port is specified the default port will be used. In the **Authentication** section enter your GitHub username in the **User:** field and you GitHub password in the **Password:** field. Then click **Next >**. ![EnterRepoInfo](images/Windows-Egit-Installation-Screenshots/4.2-EnterRepoInfo.png)
 
 **4.3** In this window you can select the branches to clone. We only need the **"master"** branch, so click the checkbox next to it then click **Next >**. _(Note: we will cover what a branch is in Section 5)_ ![Branch Selection](images/Windows-Egit-Installation-Screenshots/4.3-BranchSelection.png)
 
@@ -118,60 +118,60 @@ Paste the URI into the **URI** field. As you enter the **URI** the **Host** and 
 **4.6** Do not remove or delete the repository you just cloned. We will be using it in the next section.
 
 ## 5. Working with EGit
-aaaaaaaa
+Working with Git repositories means understanding how code is organized.  Let's examine what a branch is in a Git repository, learn how to work with different branches, and why we would want to do so.
 
-**5.0** Now that we have walked through the different ways of starting your git project we will discuss how to work with your git repository. For this section it would be best if you used the repository you forked from this code pattern and then cloned down.
+**5.0** Now that we have walked through the different ways of starting your Git project we will discuss how to work with your Git repository. For this section it would be best if you used the repository you forked and then cloned down in the previous steps.
 
 **5.1** Once your project has either been created, imported or cloned, you should now see it in the Git Perspective of z/OS Explorer. ![Git Project](images/Windows-Egit-Installation-Screenshots/5.1-GitProject.png)
 
-**5.2** Expand the Git Project by clicking the arrow to the left of the project. Then from the drop down, expand the **Branches** section, then expand both the **Local** and **Remote**. This section shows you the different branches of your git repository. A branch is an independent line of development, meaning you can make a branch off of the main line (your production source code) and work in that branch without effecting the main branch. This is how git handles parallel development.Each developer can work in their own branch without having to worry about what another developer is doing. Then when you development branch is finished it can be incorporated back into the main branch. _Note: In git the main branch is commonly named **master**._ The branches under the **Local** section are the branches that are available on your local machine. The branches under the **Remote** section are the branches that are available on the remote git server (in our case this is GitHub).
+**5.2** Expand the Git Project by clicking the arrow to the left of the project. From the drop down, expand the **Branches** section, then expand both the **Local** and **Remote**. This section shows you the different branches of your Git repository. A branch is an independent line of development, meaning you can make a branch off of the main line (your production source code) and work in that branch without effecting the main branch. This is how Git handles parallel development. Each developer can work in their own branch without having to worry about what another developer is doing. Then when you development branch is finished it can be incorporated back into the main branch. _Note: In Git the main branch is commonly named **master**._ The branches under the **Local** section are the branches that are available on your local machine. The branches under the **Remote** section are the branches that are available on the remote Git server (in our case this is GitHub).
 ![Expand Branches](images/Windows-Egit-Installation-Screenshots/5.2-ExpandBranches.png)
 
-**5.3** Please note, in the **Local** section, the **master** branch has a check mark on it. This means that the **master** branch is currently checked-out, meaning when we look at the source code we are looking at the source code in the **master** branch.
+**5.3** Please note, in the **Local** section, the **master** branch has a check mark on it. This indicates that the **master** branch is currently checked-out, meaning when we look at the source code we are looking at the source code in the **master** branch.
 
-**5.4** Now we will create our own branch to work in. Right click the git repository at the top, the from the drop down select **Switch To**, then click **New Branch...**.![Switch to New Branch](images/Windows-Egit-Installation-Screenshots/5.4-SwitchToNewBranch.png)
+**5.4** Now we will create our own branch to work in. Right click the Git repository at the top, then from the drop down select **Switch To**, and click **New Branch...**.![Switch to New Branch](images/Windows-Egit-Installation-Screenshots/5.4-SwitchToNewBranch.png)
 
-**5.5** In the pop-up window, enter **"development"** in the **Branch Name:** field. Make sure the **Check out new branch** option is selected. (This will switch us to the new branch or checkout the new branch in git terms, once it is created.) Then click **Finish**.![Create Branch](images/Windows-Egit-Installation-Screenshots/5.5-CreateBranch.png)
+**5.5** In the pop-up window, enter **"development"** in the **Branch Name:** field. Make sure the **Check out new branch** option is selected. (This will switch us to the new branch or checkout the new branch in Git terms, once it is created.) Then click **Finish**.![Create Branch](images/Windows-Egit-Installation-Screenshots/5.5-CreateBranch.png)
 
-**5.6** You should now see the **development** branch under the **Branches > Local** section. Also note how the check make is now over the **development** branch, meaning that is the branch that is currently checked-out.![New Branch](images/Windows-Egit-Installation-Screenshots/5.6-NewBranch.png)
+**5.6** You should now see the **development** branch under the **Branches > Local** section. Also note how the check mark is now over the **development** branch, meaning that is the branch that is currently checked-out.![New Branch](images/Windows-Egit-Installation-Screenshots/5.6-NewBranch.png)
 
-**5.7** Now that we have our own branch to work in lets make a change. Under our git repository expand the **Working Tree** section. The **Working Tree** section holds our source code. _Note: the .git directory is the hidden directory where git stores it's information._ You should see a `sample.txt` file.![Working Tree](images/Windows-Egit-Installation-Screenshots/5.7-WorkingTree.png)
+**5.7** Now that we have our own branch to work in let's make a change. Under our Git repository expand the **Working Tree** section. The **Working Tree** section holds our source code. _Note: the .git directory is a hidden directory where Git stores its information._ You should see a `sample.txt` file.![Working Tree](images/Windows-Egit-Installation-Screenshots/5.7-WorkingTree.png)
 
 **5.8** Now double click the `sample.txt` file to open it. ![Sample File](images/Windows-Egit-Installation-Screenshots/5.8-SampleFile.png)
 
-**5.9** For our change will just add a new line to the file. Once you've added a new line save the file with CTRL+S on windows, CMD+S on mac or click **File > Save**. ![Add New Line](images/Windows-Egit-Installation-Screenshots/5.9-AddNewLine.png)
+**5.9** Our change will just add a new line to the file. Once you've added a new line save the file with CTRL+S on Windows, CMD+S on Mac or click **File > Save**. ![Add New Line](images/Windows-Egit-Installation-Screenshots/5.9-AddNewLine.png)
 
-**5.10** Once our file is saved, in view at the bottom make sure the **Git Staging** view is selected. ![Git Staging](images/Windows-Egit-Installation-Screenshots/5.10-GitStaging.png)
+**5.10** Once our file is saved, in the panel at the bottom of your screen, make sure the **Git Staging** view is selected. ![Git Staging](images/Windows-Egit-Installation-Screenshots/5.10-GitStaging.png)
 
-**5.11** Look at the **Unstaged Changes** section. You should see the `sample.txt` file we just changed. Unstaged changes are changes that are not going to be included in the next git commit. A commit is like saving in git terms. ![Unstaged Changes](images/Windows-Egit-Installation-Screenshots/5.11-UnstagedChanges.png)
+**5.11** Look at the **Unstaged Changes** section. You should see the `sample.txt` file we just changed. Unstaged changes are changes that are not going to be included in the next Git commit. A commit is like saving in Git terms. ![Unstaged Changes](images/Windows-Egit-Installation-Screenshots/5.11-UnstagedChanges.png)
 
-**5.12** Lets stage our change so it can be included in the next commit. We can stage the changed by selecting the change and clicking the green plus button. _Note: clicking the double green plus button will stage all unstaged changes._![Stage Changes](images/Windows-Egit-Installation-Screenshots/5.12-StageChange.png)
+**5.12** Let's stage our change so it can be included in the next commit. We can stage the changes by selecting the change and clicking the green plus button. _Note: clicking the double green plus button will stage all unstaged changes._![Stage Changes](images/Windows-Egit-Installation-Screenshots/5.12-StageChange.png)
 
 **5.13** You should now see that the file has moved to the **Staged Changes** section. So now the change will be included when we commit our code. ![Stage Changes Section](images/Windows-Egit-Installation-Screenshots/5.13-StagedChange.png)
 
-**5.14** Now lets commit our new change. In the **Commit Message** section write a commit that describes the change we made. ![Commit Message](images/Windows-Egit-Installation-Screenshots/5.14-CommitMessage.png)
+**5.14** Now let's commit our new change. In the **Commit Message** section write a commit that describes the change we made. ![Commit Message](images/Windows-Egit-Installation-Screenshots/5.14-CommitMessage.png)
 
-**5.15** Now we can choose to either just **Commit** our changes or **Commit and Push** our changes. If we **Commit** our changed it will be saved to the branch we are working in (the **development** branch) on our local machine. If we **Commit and Push** then our change will be saved to our branch locally and it will then push up our local copy of our branch to GitHub. If there is already a **development** branch on GitHub our code will be added to that branch. If there is no **development** branch then a **development** branch will be created. Lets click the **Commit and Push...** button. ![Commit and Push](images/Windows-Egit-Installation-Screenshots/5.15-CommitAndPush.png)
+**5.15** Now we can choose to either just **Commit** our changes or **Commit and Push** our changes. If we **Commit** our changes they will be saved to the branch we are working in (the **development** branch) on our local machine. If we **Commit and Push** then our changes will be saved to our branch locally and it will then push the local copy of our branch to GitHub. If there is already a **development** branch on GitHub our code will be added to that branch. If there is no **development** branch then a **development** branch will be created. Let's click the **Commit and Push...** button. ![Commit and Push](images/Windows-Egit-Installation-Screenshots/5.15-CommitAndPush.png)
 
 **5.16** A pop-up window should appear after clicking **Commit and Push...**. Leave all the defaults and click **Next**. ![Push](images/Windows-Egit-Installation-Screenshots/5.16-Push.png)
 
 **5.17** If prompted, enter in your GitHub username and password. Then click **OK**. ![Enter Username and Password](images/Windows-Egit-Installation-Screenshots/5.17-EnterUsernameAndPassword.png)
 
-**5.18** You should now see a pop-up like the one below. This pop-up is showing that our **development** branch will be push up to GitHub, and that this is a new branch on our GitHub repository. Click **Finish** to push the branch. If you are prompted for you username and password again, enter them then click **OK**. If not proceed to the next step. ![Push Confirmation](images/Windows-Egit-Installation-Screenshots/5.18-PushConfirmation.png)
+**5.18** You should now see a pop-up like the one below. This pop-up is showing that our **development** branch will be push up to GitHub, and that this is a new branch on our GitHub repository. Click **Finish** to push the branch. If you are prompted for your username and password again, enter them then click **OK**. If not proceed to the next step. ![Push Confirmation](images/Windows-Egit-Installation-Screenshots/5.18-PushConfirmation.png)
 
 **5.19** You should now see a window that looks like the one below. This is confirming our branch was pushed up to GitHub. Click the **Close** button. ![Push Confirmed](images/Windows-Egit-Installation-Screenshots/5.19-PushConfirmed.png)
 
-**5.20** Now, lets go back to GtiHub to incorporate our **development** branch into our **master** branch. Back on out GitHub Repo Page, click the **Pull Requests** tab at the top. ![Pull Requests Tab](images/Windows-Egit-Installation-Screenshots/5.20-PullRequestsTab.png)
+**5.20** Now, let's go back to GitHub to incorporate our **development** branch into our **master** branch. Back on our GitHub repo page, click the **Pull Requests** tab at the top. ![Pull Requests Tab](images/Windows-Egit-Installation-Screenshots/5.20-PullRequestsTab.png)
 
 **5.21** Now click the **New Pull Request** button. ![New Pull Request Button](images/Windows-Egit-Installation-Screenshots/5.21-NewPullRequestButton.png)
 
-**5.22** Under the **Comparing changes** title, see that there is a section that has one branch being merged into another. Change this so that the **master** branch is too the left, and our **development** branch is to the right. ![Select Branches](images/Windows-Egit-Installation-Screenshots/5.22-SelectBranches.png)
+**5.22** Under the **Comparing changes** title, see that there is a section that has one branch being merged into another. Change this so that the **master** branch is on the left, and our **development** branch appears on the right. ![Select Branches](images/Windows-Egit-Installation-Screenshots/5.22-SelectBranches.png)
 
 **5.23** Now click the **Create Pull Request** button. _Note: if you look at the bottom of this page you can see the changes we are going to bring in to the **master** branch from our **development** branch._ ![Create Pull Request Button](images/Windows-Egit-Installation-Screenshots/5.23-CreatePullRequestButton.png)
 
 **5.24** Now you can add a description about what changes are going to be brought into the **master** branch from our **development** branch. Then click the **Create Pull Request** button. ![Create Pull Request Button](images/Windows-Egit-Installation-Screenshots/5.24-CreatePullRequestButton.png)
 
-**5.25** Now that our Pull Request has been created other people can see the changes we would like to add to the **master** branch. Here we can also assign some to review our request and we can merge our pull request. Lets merge our pull request so our changes are added to the **master** branch. Click the **Merge pull request** button. ![Merge Pull Request](images/Windows-Egit-Installation-Screenshots/5.25-MergePullRequest.png)
+**5.25** Now that once our pull request has been created other people can see the changes we would like to add to the **master** branch. Here we can also assign someone to review our request and we can merge our pull request. Let's merge our pull request so our changes are added to the **master** branch. Click the **Merge pull request** button. ![Merge Pull Request](images/Windows-Egit-Installation-Screenshots/5.25-MergePullRequest.png)
 
 **5.26** Click the **Confirm merge** button. ![Confirm Merge](images/Windows-Egit-Installation-Screenshots/5.26-ConfirmMerge.png)
 
@@ -180,7 +180,7 @@ aaaaaaaa
 
 **5.28** Now our changes from our **development** branch have been incorporated into the **master** branch. If we click the **Code** tab at the top of the page we can view the source code. ![Code Tab](images/Windows-Egit-Installation-Screenshots/5.28-CodeTab.png)
 
-**5.29** Now we can see that the **master** branch is selected, lets click on the `sample.txt` file.![Sample File](images/Windows-Egit-Installation-Screenshots/5.29-SampleFile.png)
+**5.29** Now we can see that the **master** branch is selected, let's click on the `sample.txt` file.![Sample File](images/Windows-Egit-Installation-Screenshots/5.29-SampleFile.png)
 
 **5.30** Here we can see that our new line is added to the file on the **master** branch, so we have successfully incorporated our changes from our **development** branch into the **master** branch. ![Confirm Change](images/Windows-Egit-Installation-Screenshots/5.30-ConfirmChange.png)
 
