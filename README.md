@@ -25,44 +25,40 @@ If you have any questions, feel free to leave an Issue on this GitHub repository
 ## 1. Installing the EGit Plug-in
 Before we can interact with Git we need to install a plug-in into our z/OS Explorer environment.  This can be done with just a few clicks using the 'Install New Software' feature.
 
-**1.1** Open IBM Explorer for z/OS. You should see an Eclipse application that looks something like this:
-![Open IBM Explorer for z/OS](images/Windows-Egit-Installation-Screenshots/1.1-OpenZOSExplorer.png)
+**1.1** Open IBM Explorer for z/OS. You should see an Eclipse application that looks something like this:<br>![Open IBM Explorer for z/OS](images/Windows-Egit-Installation-Screenshots/1.1-OpenZOSExplorer.png)
 
-**1.2** Click on **Help** -> **Install New Software...**
-![Install New Software](images/Windows-Egit-Installation-Screenshots/1.2-InstallNewSoftware.png)
+**1.2** Click on **Help** -> **Install New Software...**<br>![Install New Software](images/Windows-Egit-Installation-Screenshots/1.2-InstallNewSoftware.png)
 
-**1.3** Click the **Add** Button.
-![Add Button](images/Windows-Egit-Installation-Screenshots/1.3-AddButton.png)
+**1.3** Click the **Add** Button.<br>![Add Button](images/Windows-Egit-Installation-Screenshots/1.3-AddButton.png)
 
-**1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**.
-![eGit Location](images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
+**1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**.<br>![eGit Location](images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
 
-**1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**.  All the other checkboxes in the bottom section should have been checked by default. Then click **Next**. ![Check Boxes](images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
+**1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**.  All the other checkboxes in the bottom section should have been checked by default. Then click **Next**. <br>![Check Boxes](images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
 
-**1.6** Click the **Next** Button. ![Install Remediation Page](images/Windows-Egit-Installation-Screenshots/1.6-InstallRemediationPage.png)
+**1.6** Click the **Next** Button. <br>![Install Remediation Page](images/Windows-Egit-Installation-Screenshots/1.6-InstallRemediationPage.png)
 
-**1.7** Click the **Next** Button. ![Install Details](images/Windows-Egit-Installation-Screenshots/1.7-InstallDetails.png)
+**1.7** Click the **Next** Button. <br>![Install Details](images/Windows-Egit-Installation-Screenshots/1.7-InstallDetails.png)
 
-**1.8** Click the radio button to accept the terms of the license agreements, then click **Finish**. ![Accept Licenses](images/Windows-Egit-Installation-Screenshots/1.8-AcceptLicenses.png)
+**1.8** Click the radio button to accept the terms of the license agreements, then click **Finish**. <br>![Accept Licenses](images/Windows-Egit-Installation-Screenshots/1.8-AcceptLicenses.png)
 
-**1.9** A window will pop up during the install. Make sure the check box next to **Eclipse Foundation\, Inc; Java Software...** is checked. Then click **OK**.<br/> ![Trust Certificates](images/Windows-Egit-Installation-Screenshots/1.9-TrustCertificates.png)
+**1.9** A window will pop up during the install. Make sure the check box next to **Eclipse Foundation\, Inc; Java Software...** is checked. Then click **OK**.<br/> <br>![Trust Certificates](images/Windows-Egit-Installation-Screenshots/1.9-TrustCertificates.png)
 
-**1.10** Once the plug-in is finished installing, IBM Explorer for z/OS will need to be restarted before it can be used. Another pop-up window should appear asking you to restart. Click **Yes**.![Restart Explorer](images/Windows-Egit-Installation-Screenshots/1.10-Restart.png)
+**1.10** Once the plug-in is finished installing, IBM Explorer for z/OS will need to be restarted before it can be used. Another pop-up window should appear asking you to restart. Click **Yes**. <br>![Restart Explorer](images/Windows-Egit-Installation-Screenshots/1.10-Restart.png)
 
 ## 2. Creating a Git Repo with EGit
 Now that our plug-in is installed, let's create a repository we can work with.  We'll start by creating a local repository on our PC where z/OS Explorer is running.
 
 **2.1** Re-open IBM Explorer for z/OS if it did not re-open automatically.
 
-**2.2** Click on **Window** -> **Perspective** -> **Open Perspective** -> **Other...**. ![Open Perspective List](images/Windows-Egit-Installation-Screenshots/2.2-OpenPerspectiveList.png)
+**2.2** Click on **Window** -> **Perspective** -> **Open Perspective** -> **Other...**. <br>![Open Perspective List](images/Windows-Egit-Installation-Screenshots/2.2-OpenPerspectiveList.png)
 
-**2.3** Select **Git** and click **OK**. <br/> ![Select Git](images/Windows-Egit-Installation-Screenshots/2.3-SelectGit.png)
+**2.3** Select **Git** and click **OK**. <br/>![Select Git](images/Windows-Egit-Installation-Screenshots/2.3-SelectGit.png)
 
-**2.4** Select **Create new local Git repository** ![Select Create New Repo](images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
+**2.4** Select **Create new local Git repository** <br>![Select Create New Repo](images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
 
-**2.5** Select the Directory you wish the Git repository to be saved in. _A sample path you can use is: **C:\Users\<your-user-name>\git\repository**._ Then click **Create**. ![Select Dir](images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
+**2.5** Select the Directory you wish the Git repository to be saved in. _A sample path you can use is: **C:\Users\<your-user-name>\git\repository**._ Then click **Create**. <br>![Select Dir](images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
 
-**2.6** See that the repository now shows up in the **Git Repositories** view. ![Git Repo View ](images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
+**2.6** See that the repository now shows up in the **Git Repositories** view. <br>![Git Repo View ](images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
 
 **OPTIONAL 2.7** If you would like to remove the Git repository from the list follow these instructions.
 
@@ -80,19 +76,19 @@ Instead of starting with an empty repostiory, you might want to start a reposito
 - **3.0.1** Click **Window -> Perspective -> Open Perspective -> Other...**. Then select the **z/OS Projects** perspective, then click **OK**. (_If you don't have the z/OS Projects perspective available, then jump to step 3.0.2_) Right click in the z/OS Projects view, then click **New -> z/OS Project...**. Enter a name for the project in the **Project name:** field (for example: "ProjectExample"). Then select **Do not create a subproject now**, then click **Finish**. Now jump to step **3.1**.
 - **3.0.2** Click **Window -> Perspective -> Open Perspective -> Other...**. Then select the **Resource** perspective, then click **OK**. Right click in the Project Explorer view, then click **New -> Project...**. Next, in the wizard select the dropdown next to the **General** folder, then select **Project**, and click **Next** at the bottom. Then type a project name in the **Project name:** field (for example: "ProjectExample"). Then click **Finish**.
 
-**3.1** Find your project in the **Project Explorer**. ![Open Project](images/Windows-Egit-Installation-Screenshots/3.1-OpenProject.png)
+**3.1** Find your project in the **Project Explorer**. <br>![Open Project](images/Windows-Egit-Installation-Screenshots/3.1-OpenProject.png)
 
-**3.2** Right click on the Project. Then click **Team** -> **Share Project...** ![Share Project](images/Windows-Egit-Installation-Screenshots/3.2-ShareProject.png)
+**3.2** Right click on the Project. Then click **Team** -> **Share Project...** <br>![Share Project](images/Windows-Egit-Installation-Screenshots/3.2-ShareProject.png)
 
-**3.3** Select **Git**, then click **Next**. ![Select Git](images/Windows-Egit-Installation-Screenshots/3.3-SelectGit.png)
+**3.3** Select **Git**, then click **Next**. <br>![Select Git](images/Windows-Egit-Installation-Screenshots/3.3-SelectGit.png)
 
-**3.4** Click the **Create** Button. If your project has already been initialized as a Git repository then this window won't show. You will be immediately taken to the next step. ![Click Create](images/Windows-Egit-Installation-Screenshots/3.4-ClickCreate.png)
+**3.4** Click the **Create** Button. If your project has already been initialized as a Git repository then this window won't show. You will be immediately taken to the next step. <br>![Click Create](images/Windows-Egit-Installation-Screenshots/3.4-ClickCreate.png)
 
-**3.5** Choose the directory for your repository, then click **Finish**. ![Directory Location & Finish](images/Windows-Egit-Installation-Screenshots/3.5-DirLocation&Finish.png)
+**3.5** Choose the directory for your repository, then click **Finish**. <br>![Directory Location & Finish](images/Windows-Egit-Installation-Screenshots/3.5-DirLocation&Finish.png)
 
-**3.6** Click **Finish**. ![Click Finish](images/Windows-Egit-Installation-Screenshots/3.6-Finish.png)
+**3.6** Click **Finish**. <br>![Click Finish](images/Windows-Egit-Installation-Screenshots/3.6-Finish.png)
 
-**3.7** The repository is now created. If you followed the instructions in sections 2.2 & 2.3 to open the Git Perspective, you can see the newly created repo. ![New Repo](images/Windows-Egit-Installation-Screenshots/3.7-GitPerspective.png)
+**3.7** The repository is now created. If you followed the instructions in sections 2.2 & 2.3 to open the Git Perspective, you can see the newly created repo. <br>![New Repo](images/Windows-Egit-Installation-Screenshots/3.7-GitPerspective.png)
 
 **OPTIONAL 3.8** Now that we are done creating a repository from an existing project, you may repeat step **2.7** or **2.8** if you wish to remove or delete the repository.
 
@@ -103,11 +99,11 @@ Cloning a repository will **copy** the repository from a hosted remote location,
 
 - **4.0.1** If you don't already have a GitHub account, you can [create GitHub account here](https://github.com/join).
 
-- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of the GitHub repo with the README you are reading now. <br/> _This will create a copy of this repository under your GitHub account._ Note that the following screenshots show a different repo name than what you should be using in these steps. ![ForkRepo](images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
+- **4.0.2** Now that you have your own GitHub account, click the **Fork** button at the top of the GitHub repo with the README you are reading now. <br/> _This will create a copy of this repository under your GitHub account._ Note that the following screenshots show a different repo name than what you should be using in these steps. <br>![ForkRepo](images/Windows-Egit-Installation-Screenshots/4.0.2-ForkRepo.png)
 
 - **4.0.3** For the rest of these instructions you will be using the GitHub repository under your own account.
 
-**4.1** Now back in IBM Explorer for z/OS, Click the **Clone a Git repository** link or the Clone icon at the top. ![CloneRepo](images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
+**4.1** Now back in IBM Explorer for z/OS, Click the **Clone a Git repository** link or the Clone icon at the top. <br>![CloneRepo](images/Windows-Egit-Installation-Screenshots/4.1-CloneGitRepo.png)
 
 **4.2** Enter the information of the repository you wish to clone. To find the URI for your newly forked repo, click the **Clone or download** button on your GitHub Repo Page. ![CloneOrDownloadButton](images/Windows-Egit-Installation-Screenshots/4.2.1-CloneOrDownloadButton.png) _(This button is located at the top of your GitHub Repository's page)_ <br />
 Then click the **Copy** button next to the URL to copy it to your clipboard. <br/> ![CopyURIButton](images/Windows-Egit-Installation-Screenshots/4.2.2-CopyURIButton.png) <br/>
