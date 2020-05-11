@@ -25,13 +25,17 @@ If you have any questions, feel free to leave an Issue on this GitHub repository
 ## 1. Installing the EGit Plug-in
 Before we can interact with Git we need to install a plug-in into our z/OS Explorer environment.  This can be done with just a few clicks using the 'Install New Software' feature.
 
-**1.1** Open IBM Explorer for z/OS. You should see an Eclipse application that looks something like this: ![Open IBM Explorer for z/OS](images/Windows-Egit-Installation-Screenshots/1.1-OpenZOSExplorer.png)
+**1.1** Open IBM Explorer for z/OS. You should see an Eclipse application that looks something like this:
+![Open IBM Explorer for z/OS](images/Windows-Egit-Installation-Screenshots/1.1-OpenZOSExplorer.png)
 
-**1.2** Click on **Help** -> **Install New Software...** ![Install New Software](images/Windows-Egit-Installation-Screenshots/1.2-InstallNewSoftware.png)
+**1.2** Click on **Help** -> **Install New Software...**
+![Install New Software](images/Windows-Egit-Installation-Screenshots/1.2-InstallNewSoftware.png)
 
-**1.3** Click the **Add** Button. ![Add Button](images/Windows-Egit-Installation-Screenshots/1.3-AddButton.png)
+**1.3** Click the **Add** Button.
+![Add Button](images/Windows-Egit-Installation-Screenshots/1.3-AddButton.png)
 
-**1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
+**1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**.
+![eGit Location](images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
 
 **1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**.  All the other checkboxes in the bottom section should have been checked by default. Then click **Next**. ![Check Boxes](images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
 
