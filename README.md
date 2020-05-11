@@ -12,7 +12,7 @@ This work is being done as part of a series of code patterns and tutorials cente
 ### Estimated time
 It should take approximately 30 minutes to complete this tutorial.
 
-### Questions:
+### Questions
 If you have any questions, feel free to leave an Issue on this GitHub repository.
 
 ### Steps: <!-- omit in toc -->
@@ -23,8 +23,9 @@ If you have any questions, feel free to leave an Issue on this GitHub repository
 - [5. Working with EGit](#5-working-with-egit)
 
 ## 1. Installing the EGit Plug-in
+Before we can interact with Git we need to install a plug-in into our z/OS Explorer environment.  This can be done with just a few clicks using the 'Install New Software' feature.
 
-**1.1** Open IBM Explorer for z/OS. ![Open IBM Explorer for z/OS](images/Windows-Egit-Installation-Screenshots/1.1-OpenZOSExplorer.png)
+**1.1** Open IBM Explorer for z/OS. You should see an Eclipse application that looks something like this: ![Open IBM Explorer for z/OS](images/Windows-Egit-Installation-Screenshots/1.1-OpenZOSExplorer.png)
 
 **1.2** Click on **Help** -> **Install New Software...** ![Install New Software](images/Windows-Egit-Installation-Screenshots/1.2-InstallNewSoftware.png)
 
@@ -32,7 +33,7 @@ If you have any questions, feel free to leave an Issue on this GitHub repository
 
 **1.4** Type **"eGit"** for **Name** and "http://download.eclipse.org/egit/updates" for **Location**. Then click **OK**. ![eGit Location](images/Windows-Egit-Installation-Screenshots/1.4-EgitLink.png)
 
-**1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**, all the other checkboxes in the bottom section should have been checked by default. Then click **Next**. ![Check Boxes](images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
+**1.5** Click the check box next to **Git integration for Eclipse**. Then below, click the check box next to **Show only software applicable to target environment**.  All the other checkboxes in the bottom section should have been checked by default. Then click **Next**. ![Check Boxes](images/Windows-Egit-Installation-Screenshots/1.5-CheckBoxs.png)
 
 **1.6** Click the **Next** Button. ![Install Remediation Page](images/Windows-Egit-Installation-Screenshots/1.6-InstallRemediationPage.png)
 
@@ -42,9 +43,10 @@ If you have any questions, feel free to leave an Issue on this GitHub repository
 
 **1.9** A window will pop up during the install. Make sure the check box next to **Eclipse Foundation\, Inc; Java Software...** is checked. Then click **OK**.<br/> ![Trust Certificates](images/Windows-Egit-Installation-Screenshots/1.9-TrustCertificates.png)
 
-**1.10** Once the plug-in is finished installing, IBM Explorer for z/OS will need to be restarted before it can be used. A pop-up window should appear asking you to restart. Click **Yes**.![Restart Explorer](images/Windows-Egit-Installation-Screenshots/1.10-Restart.png)
+**1.10** Once the plug-in is finished installing, IBM Explorer for z/OS will need to be restarted before it can be used. Another pop-up window should appear asking you to restart. Click **Yes**.![Restart Explorer](images/Windows-Egit-Installation-Screenshots/1.10-Restart.png)
 
 ## 2. Creating a Git Repo with EGit
+Now that our plug-in is installed, let's create a repository we can work with.  We'll start by creating a local repository on our PC where z/OS Explorer is running.
 
 **2.1** Re-open IBM Explorer for z/OS if it did not re-open automatically.
 
@@ -54,7 +56,7 @@ If you have any questions, feel free to leave an Issue on this GitHub repository
 
 **2.4** Select **Create new local Git repository** ![Select Create New Repo](images/Windows-Egit-Installation-Screenshots/2.4-CreateNewRepo.png)
 
-**2.5** Select the Directory you wish the git repository to be saved in. _A sample path you can use is: **C:Users\<your-user-name>\git\repository**._ Then click **Create**. ![Select Dir](images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
+**2.5** Select the Directory you wish the git repository to be saved in. _A sample path you can use is: **C:\Users\<your-user-name>\git\repository**._ Then click **Create**. ![Select Dir](images/Windows-Egit-Installation-Screenshots/2.5-SelectDir.png)
 
 **2.6** See that the repository now shows up in the **Git Repositories** view. ![Git Repo View ](images/Windows-Egit-Installation-Screenshots/2.6-SeeRepo.png)
 
@@ -181,4 +183,9 @@ Paste the URI into the **URI** field. As you enter the **URI** the **Host** and 
 
 **5.30** Here we can see that our new line is added to the file on the **master** branch, so we have successfully incorporated our changes from our **development** branch into the **master** branch. ![Confirm Change](images/Windows-Egit-Installation-Screenshots/5.30-ConfirmChange.png)
 
-### This marks the end of the code pattern. Thank you for finishing it. If you have any comments for feedback please create an issue on this GitHub repository and please checkout the many more code patterns available on the [IBM Developer site](https://developer.ibm.com/patterns/).
+### Summary
+This marks the end of this tutorial. Hopefully you've enjoyed installing and configuring the eGit plug-in to allow easy interaction between z/OS Explorer and Git.  You're now ready to use Git for all the source for your applications running on z/OS.  Go ahead and try to use it with your fist "real" project.
+
+## Related links
+- [IBM z/OS Explorer overview page](https://developer.ibm.com/mainframe/products/zosexplorer/)
+- [z/OS Explorer Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSBDYH/welcome.html)
